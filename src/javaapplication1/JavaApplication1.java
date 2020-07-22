@@ -17,11 +17,15 @@ public class JavaApplication1 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Primeras modificaciones");
-        System.out.println("suma: "+ suma(3,6));
+        System.out.println("suma: " + suma(3, 6));
     }
-    
-    public static int suma(int a, int b){
-        return a+b;
+
+    public static int suma(int a, int b) {
+        return a + b;
     }
-    
+
+    public static int multiplica(int a, int b) {
+        return a * b;
+    }
+
 }
